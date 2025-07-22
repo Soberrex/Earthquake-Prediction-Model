@@ -6,7 +6,7 @@ import time
 import cartopy.crs as ccrs  # for data visualization
 import cartopy.feature as cfeature  # for map features
 
-data = pd.read_csv(r"C:\Users\HP\OneDrive\Desktop\Earthquake Prediction model\database.csv")
+data = pd.read_csv(r"database.csv")
 data.columns
 
 data = data[['Date', 'Time', 'Latitude', 'Longitude', 'Depth', 'Magnitude']]
